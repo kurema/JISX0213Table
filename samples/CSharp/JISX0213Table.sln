@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JISX0213Table", "JISX0213Table\JISX0213Table.csproj", "{08E03240-7FF0-4EB2-B950-E5E2D4E6D272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{41FAE4E2-3014-4E19-A6BB-40604CA7024D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08E03240-7FF0-4EB2-B950-E5E2D4E6D272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E03240-7FF0-4EB2-B950-E5E2D4E6D272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E03240-7FF0-4EB2-B950-E5E2D4E6D272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E03240-7FF0-4EB2-B950-E5E2D4E6D272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FAE4E2-3014-4E19-A6BB-40604CA7024D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FAE4E2-3014-4E19-A6BB-40604CA7024D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FAE4E2-3014-4E19-A6BB-40604CA7024D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FAE4E2-3014-4E19-A6BB-40604CA7024D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A6F1AF-4356-401E-8007-FFC4C746803E}
+	EndGlobalSection
+EndGlobal

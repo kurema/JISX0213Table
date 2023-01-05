@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	<LangVersion>latest</LangVersion>
+	<RootNamespace>kurema.JISX0213Table</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jis2ucs.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="jis2ucs.bin" />
+  </ItemGroup>
+
+</Project>
