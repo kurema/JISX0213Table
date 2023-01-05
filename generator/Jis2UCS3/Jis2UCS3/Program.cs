@@ -7,7 +7,8 @@ using System.Text.Json;
 
 ushort[] shorts = new ushort[2 * 94 * 94 * 2 + 2];
 
-shorts[0] = 0xFFFE;//実際はUTF16文章ではない。
+shorts[0] = 0xFEFF;//実際はUTF16文章ではない。
+shorts[1] = 0x1302;
 
 using var sr = new StreamReader("jis2ucs.yml");
 

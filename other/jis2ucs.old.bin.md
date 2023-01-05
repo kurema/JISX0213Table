@@ -1,8 +1,8 @@
 # jis2ucs.old.binについて
 `jis2ucs.old.bin`は[`jis2ucs.yml`](https://github.com/aozorahack/aozora2html/blob/master/yml/jis2ucs.yml)をバイナリ形式にしたものです。
 ファイル構造は、各4バイト・2\*94\*94の3次元配列です。
-先頭4バイトは`FE FF 00 00`にしています。
-これはUTF-8のBOMに相当するものです。
+先頭4バイトは`FF FE 02 13`にしています。
+これはUTF-16のBOM(LE)と、JIS X 0213の0213です。なお`FF FE 00 00`はUTF-32のBOMです。
 
 つまり面句点番号をa-b-cとした場合、`(((a-1)*94+(b-1))*94+c)*4`バイト目に要素があります。
 仕様上、多くの領域は空白です。
