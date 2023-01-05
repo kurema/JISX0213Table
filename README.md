@@ -1,7 +1,7 @@
 # JISX0213Table
-JIS X 0213のUnicodeコードポイント変換テーブルです。
-本来は70KB程度必要なところ、圧縮無しで24KBに収まっています。
-ただし読み取りには多少複雑な処理が必要です。
+JIS X 0213のUnicodeコードポイント変換テーブルです。  
+本来は70KB程度必要なところ、圧縮無しで24KBに収まっています。  
+ただし読み取りには多少複雑な処理が必要です。  
 
 | ファイル名 | 説明 | リンク | 
 | -- | -- | -- |
@@ -12,15 +12,17 @@ JIS X 0213のUnicodeコードポイント変換テーブルです。
 | generator/ | ファイル生成プログラム | [詳細](generator/readme.md) |
 | samples/CSharp/ | 参照用ソースコードのサンプル | |
 
-4種類用意しましたのでお好みのファイルをご利用ください。
-ファイル形式について詳しくは上の「詳細」から参照してください。
+4種類用意しましたのでお好みのファイルをご利用ください。  
+ファイル形式について詳しくは上の「詳細」から参照してください。  
+
+![image](https://user-images.githubusercontent.com/10556974/210902409-0212964a-7c88-407d-955d-c78a6bdbe23d.png)
 
 ## 概要
-このレポジトリは[aozora2htmlSharp](https://github.com/kurema/aozora2htmlSharp)の派生です。
+このレポジトリは[aozora2htmlSharp](https://github.com/kurema/aozora2htmlSharp)の派生です。  
 
-本ファイルは[aozorahack](https://github.com/aozorahack)/[aozora2html](https://github.com/aozorahack/aozora2html)の[jis2ucs.yml](https://github.com/aozorahack/aozora2html/blob/master/yml/jis2ucs.yml)から作成されています。
-jis2ucs.ymlは[JIS X 0213:2004 vs Unicode mapping table](http://w3.kcua.ac.jp/~fujiwara/jis2000/jis2004/jisx0213-2004-mono.html)([Archive](https://web.archive.org/web/20160314032417/http://w3.kcua.ac.jp/~fujiwara/jis2000/jis2004/jisx0213-2004-mono.html))を元に作成されています。
-いずれもCC0またはそれに相当するライセンスで提供されています。
+本ファイルは[aozorahack](https://github.com/aozorahack)/[aozora2html](https://github.com/aozorahack/aozora2html)の[jis2ucs.yml](https://github.com/aozorahack/aozora2html/blob/master/yml/jis2ucs.yml)から作成されています。  
+jis2ucs.ymlは[JIS X 0213:2004 vs Unicode mapping table](http://w3.kcua.ac.jp/~fujiwara/jis2000/jis2004/jisx0213-2004-mono.html)([Archive](https://web.archive.org/web/20160314032417/http://w3.kcua.ac.jp/~fujiwara/jis2000/jis2004/jisx0213-2004-mono.html))を元に作成されています。  
+いずれもCC0またはそれに相当するライセンスで提供されています。  
 
 ## ライセンス
 CC0
