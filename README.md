@@ -15,7 +15,7 @@ JIS X 0213のUnicodeコードポイント変換テーブルです。
 4種類用意しましたのでお好みのファイルをご利用ください。  
 ファイル形式について詳しくは上の「詳細」から参照してください。  
 
-![image](https://user-images.githubusercontent.com/10556974/210902409-0212964a-7c88-407d-955d-c78a6bdbe23d.png)
+![image](img/bz.png)
 
 ## 概要
 このレポジトリは[aozora2htmlSharp](https://github.com/kurema/aozora2htmlSharp)の派生です。  

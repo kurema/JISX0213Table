@@ -36,7 +36,7 @@ bytes[1] = 0x13;
         {
             if (matches[0].Groups[1].Value.Length != 4 || matches[1].Groups[1].Value.Length != 4) Console.Error.WriteLine("Unexpected char #1.");
             //2文字目は309A 0300 0301 02E5 02E9しかない。ただし全部で25回しか出現しない。
-            //つまり3バイトを2バイトにできたとしても25(実質15)バイトしか減らないし、普通の圧縮に片足突っ込んでる。
+            //つまり6バイトを4バイトにできたとしても50(実質40)バイトしか減らないし、普通の圧縮に片足突っ込んでる。
             //Console.WriteLine($"{matches[0].Groups[1].Value} {matches[1].Groups[1].Value}");
             var tooAdd = new byte[6];
             tooAdd[0] = Convert.ToByte("A0", 16);
